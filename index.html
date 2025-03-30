@@ -1,837 +1,892 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Hexo Theme Redefine">
-    
-    <meta name="author" content="koneko">
-    <!-- preconnect -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222"><meta name="generator" content="Hexo 7.3.0">
 
-    
-    <!--- Seo Part-->
-    
-    <link rel="canonical" href="http://example.com/"/>
-    <meta name="robots" content="index,follow">
-    <meta name="googlebot" content="index,follow">
-    <meta name="revisit-after" content="1 days">
-    
-    
-    
-        
-        <meta name="description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
-<meta property="og:type" content="website">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha256-dABdfBfUoC8vJUBOwGVdm8L9qlMWaHTIfXt+7GnZCIo=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"example.com","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.22.0","exturl":false,"sidebar":{"position":"left","width_expanded":320,"width_dual_column":240,"display":"post","padding":18,"offset":12},"hljswrap":true,"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"duration":200,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
+
+    <meta property="og:type" content="website">
 <meta property="og:title" content="nya">
 <meta property="og:url" content="http://example.com/index.html">
 <meta property="og:site_name" content="nya">
-<meta property="og:description" content="Hexo Theme Redefine, Redefine Your Hexo Journey.">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/images/redefine-og.webp">
 <meta property="article:author" content="niko">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://example.com/images/redefine-og.webp">
-    
-    
-    <!--- Icon Part-->
-    <link rel="icon" type="image/png" href="/images/redefine-favicon.svg" sizes="192x192">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/redefine-favicon.svg">
-    <meta name="theme-color" content="#A31F34">
-    <link rel="shortcut icon" href="/images/redefine-favicon.svg">
-    <!--- Page Info-->
-    
-    <title>
-        
-            koneko - Redefine Your Hexo Journey.
-        
-    </title>
-
-    
-<link rel="stylesheet" href="/fonts/Chillax/chillax.css">
 
 
-    <!--- Inject Part-->
-    
-
-    
-<link rel="stylesheet" href="/css/style.css">
+<link rel="canonical" href="http://example.com/">
 
 
-    
-        
-<link rel="stylesheet" href="/css/build/tailwind.css">
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
 
-    
-
-    
-<link rel="stylesheet" href="/fonts/GeistMono/geist-mono.css">
-
-    
-<link rel="stylesheet" href="/fonts/Geist/geist.css">
-
-    <!--- Font Part-->
-    
-    
-    
-    
-    
-    
-
-    <script id="hexo-configurations">
-    window.config = {"hostname":"example.com","root":"/","language":"zh-CN"};
-    window.theme = {"articles":{"style":{"font_size":"16px","line_height":1.5,"image_border_radius":"14px","image_alignment":"center","image_caption":false,"link_icon":true,"delete_mask":false,"title_alignment":"left","headings_top_spacing":{"h1":"3.2rem","h2":"2.4rem","h3":"1.9rem","h4":"1.6rem","h5":"1.4rem","h6":"1.3rem"}},"word_count":{"enable":true,"count":true,"min2read":true},"author_label":{"enable":true,"auto":false,"list":[]},"code_block":{"copy":true,"style":"mac","highlight_theme":{"light":"github","dark":"vs2015"},"font":{"enable":false,"family":null,"url":null}},"toc":{"enable":true,"max_depth":3,"number":false,"expand":true,"init_open":true},"copyright":{"enable":true,"default":"cc_by_nc_sa"},"lazyload":true,"pangu_js":false,"recommendation":{"enable":false,"title":"推荐阅读","limit":3,"mobile_limit":2,"placeholder":"/images/wallhaven-wqery6-light.webp","skip_dirs":[]}},"colors":{"primary":"#A31F34","secondary":null,"default_mode":"light"},"global":{"fonts":{"chinese":{"enable":false,"family":null,"url":null},"english":{"enable":false,"family":null,"url":null},"title":{"enable":false,"family":null,"url":null}},"content_max_width":"1000px","sidebar_width":"210px","hover":{"shadow":true,"scale":false},"scroll_progress":{"bar":false,"percentage":true},"website_counter":{"url":"https://cn.vercount.one/js","enable":true,"site_pv":true,"site_uv":true,"post_pv":true},"single_page":true,"preloader":{"enable":false,"custom_message":null},"open_graph":{"enable":true,"image":"/images/redefine-og.webp","description":"Hexo Theme Redefine, Redefine Your Hexo Journey."},"google_analytics":{"enable":false,"id":null}},"home_banner":{"enable":true,"style":"fixed","image":{"light":"/images/wallhaven-wqery6-light.webp","dark":"/images/wallhaven-wqery6-dark.webp"},"title":"Theme Redefine","subtitle":{"text":[],"hitokoto":{"enable":false,"show_author":false,"api":"https://v1.hitokoto.cn"},"typing_speed":100,"backing_speed":80,"starting_delay":500,"backing_delay":1500,"loop":true,"smart_backspace":true},"text_color":{"light":"#fff","dark":"#d1d1b6"},"text_style":{"title_size":"2.8rem","subtitle_size":"1.5rem","line_height":1.2},"custom_font":{"enable":false,"family":null,"url":null},"social_links":{"enable":false,"style":"default","links":{"github":null,"instagram":null,"zhihu":null,"twitter":null,"email":null},"qrs":{"weixin":null}}},"plugins":{"feed":{"enable":false},"aplayer":{"enable":false,"type":"fixed","audios":[{"name":null,"artist":null,"url":null,"cover":null,"lrc":null}]},"mermaid":{"enable":false,"version":"11.4.1"}},"version":"2.8.2","navbar":{"auto_hide":false,"color":{"left":"#f78736","right":"#367df7","transparency":35},"width":{"home":"1200px","pages":"1000px"},"links":{"Home":{"path":"/","icon":"fa-regular fa-house"}},"search":{"enable":false,"preload":true}},"page_templates":{"friends_column":2,"tags_style":"blur"},"home":{"sidebar":{"enable":true,"position":"left","first_item":"menu","announcement":null,"show_on_mobile":true,"links":null},"article_date_format":"auto","excerpt_length":200,"categories":{"enable":true,"limit":3},"tags":{"enable":true,"limit":3}},"footerStart":"2025/3/17 11:45:14"};
-    window.lang_ago = {"second":"%s 秒前","minute":"%s 分钟前","hour":"%s 小时前","day":"%s 天前","week":"%s 周前","month":"%s 个月前","year":"%s 年前"};
-    window.data = {"masonry":false};
-  </script>
-    
-    <!--- Fontawesome Part-->
-    
-<link rel="stylesheet" href="/fontawesome/fontawesome.min.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/brands.min.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/solid.min.css">
-
-    
-<link rel="stylesheet" href="/fontawesome/regular.min.css">
-
-    
-    
-    
-    
-<meta name="generator" content="Hexo 7.3.0"></head>
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>nya</title>
+  
 
 
 
-<body>
-	<div class="progress-bar-container">
-	
 
-	
-	<span class="pjax-progress-bar"></span>
-	<!--        <span class="swup-progress-icon">-->
-	<!--            <i class="fa-solid fa-circle-notch fa-spin"></i>-->
-	<!--        </span>-->
-	
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <div class="column">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">nya</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger" aria-label="搜索" role="button">
+    </div>
+  </div>
 </div>
 
-<main class="page-container" id="swup">
-
-	
-	
-    <style>
-        .home-banner-container {
-            background: none !important;
-        }
-        .home-article-item,
-        .sidebar-links,
-        .sidebar-content,
-        a.page-number,
-        a.extend,
-        .sidebar-links .links:hover,
-        .right-bottom-tools,
-        footer.footer {
-            background-color: var(--background-color-transparent-80) !important;
-        }
-        .right-bottom-tools:hover,
-        a.page-number:hover,
-        a.extend:hover {
-            background-color: var(--primary-color) !important;
-        }
-        .site-info,
-        .home-article-sticky-label {
-            background-color: var(--background-color-transparent-15) !important;
-        }
-        .home-article-sticky-label {
-            backdrop-filter: none !important;
-        }
-    </style>
-    <div class="home-banner-background transition-fade fixed top-0 left-0 w-screen h-screen scale-125 sm:scale-110 box-border will-change-transform bg-cover">
-        <img src="/images/wallhaven-wqery6-light.webp" alt="home-banner-background" class="w-full h-full object-cover dark:hidden">
-        <img src="/images/wallhaven-wqery6-dark.webp" alt="home-banner-background" class="w-full h-full object-cover hidden dark:block">
-    </div>
 
 
-<div class="home-banner-container flex justify-center items-center transition-fade relative">
-    
-    <div class="content mt-8 flex flex-col justify-center items-center transition-fade-down">
-        <div class="description flex flex-col justify-center items-center w-screen font-medium text-center"
-        
-        >
-            Theme Redefine
-            
-            
-                <p><i id="subtitle"></i></p>
-            
-        </div>
-        
-    </div>
-    <script>
-        const scrollToMain = ()=> {
-            console.log('scroll');
-            const target = document.querySelector('.main-content-container');
-            target.scrollIntoView({ behavior: 'smooth'});
-        }
-    </script>
-</div>
-	
 
-	<div class="main-content-container flex flex-col justify-between min-h-dvh">
-		<div class="main-content-header">
-			<header class="navbar-container px-6 md:px-12">
-    <div class="navbar-content transition-navbar has-home-banner">
-        <div class="left">
-            
-            <a class="logo-title" href="/">
-                <h1>
-                koneko
-                </h1>
-            </a>
-        </div>
 
-        <div class="right">
-            <!-- PC -->
-            <div class="desktop">
-                <ul class="navbar-list">
-                    
-                        
-                            
 
-                            <li class="navbar-item">
-                                <!-- Menu -->
-                                <a class="active"
-                                   href="/"
-                                        >
-                                    <i class="fa-regular fa-house fa-fw"></i>
-                                    首页
-                                    
-                                </a>
-
-                                <!-- Submenu -->
-                                
-                            </li>
-                    
-                    
-                </ul>
-            </div>
-            <!-- Mobile -->
-            <div class="mobile">
-                
-                <div class="icon-item navbar-bar">
-                    <div class="navbar-bar-middle"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Mobile sheet -->
-    <div class="navbar-drawer h-dvh w-full absolute top-0 left-0 bg-background-color flex flex-col justify-between">
-        <ul class="drawer-navbar-list flex flex-col px-4 justify-center items-start">
-            
-                
-                    
-
-                    <li class="drawer-navbar-item text-base my-1.5 flex flex-col w-full">
-                        
-                        <a class="py-1.5 px-2 flex flex-row items-center justify-between gap-1 hover:!text-primary active:!text-primary text-2xl font-semibold group border-b border-border-color hover:border-primary w-full active"
-                           href="/"
-                        >
-                            <span>
-                                首页
-                            </span>
-                            
-                                <i class="fa-regular fa-house fa-sm fa-fw"></i>
-                            
-                        </a>
-                        
-
-                        
-                    </li>
-            
-
-            
-            
-        </ul>
-
-        <div class="statistics flex justify-around my-2.5">
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">标签</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">分类</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
-        <div class="label text-third-text-color text-sm">文章</div>
-    </a>
-</div>
-    </div>
-
-    <div class="window-mask"></div>
 
 </header>
-
-
-		</div>
-
-		<div class="main-content-body transition-fade-up">
-			
-			<div class="home-sidebar-container">
-    <div class="sticky-container sticky">
         
-        
-            
-            <div class="sidebar-content" >
-                <div class="avatar flex justify-center">
-    <img src="/images/redefine-avatar.svg">
-</div>
-                <div class="author flex flex-col justify-center my-2.5 mx-0">
-    <div class="name">koneko</div>
-    
-        <div class="label">Lv1</div>
-    
-</div>
-                <div class="statistics flex justify-around my-2.5">
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/tags">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">标签</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/categories">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">0</div>
-        <div class="label text-third-text-color text-sm">分类</div>
-    </a>
-    <a class="item tag-count-item flex flex-col justify-center items-center w-20" href="/archives">
-        <div class="number text-2xl sm:text-xl text-second-text-color font-semibold">6</div>
-        <div class="label text-third-text-color text-sm">文章</div>
-    </a>
-</div>
-            </div>
-        
-
-    </div>
-</div>
-
-			
-
-			<div class="main-content">
-				<div class="home-content-container">
-    <ul class="home-article-list">
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/21/STM32%E6%8E%92%E9%94%99/">
-                            STM32寄存器笔记
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            中断HAL_Delay() 延时函数有坑，因为其来源是 SysTick 定时器（在固定时间间隔内产生中断），所以就有所属的中断优先级。SysTick 的中断抢占优先级是 0，
-所以便无法在外部中断触发时接着触发 SysTick 了。所以，要把外部中断的抢占优先级改低（由 0 改为 1）。
-GPIO
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Fri Mar 21 2025 12:55:10 GMT+0800">
-                
-                    2025-03-21
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/21/STM32%E6%8E%92%E9%94%99/">阅读全文<span class="seo-reader-text">STM32寄存器笔记</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/20/STM32-HAL%E5%BA%93%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/">
-                            STM32 HAL库常用函数
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            GPIO 函数HAL_GPIO_Init函数要使用一个外设我们首先要对它进行初始化，所以我们先看外设GPIO的初始化函数。其声明如下：
-1cvoid HAL_GPIO_Init(GPIO_TypeDef  *GPIOx,GPIO_InitTypeDef *GPIO_Init);
-
-函数描述：用于配置GPIO功能模式，还可以设置EXTI功能。函数形参：形参1是端口号，可以有以下的选择：
-#de...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Thu Mar 20 2025 08:30:57 GMT+0800">
-                
-                    2025-03-20
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/20/STM32-HAL%E5%BA%93%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/">阅读全文<span class="seo-reader-text">STM32 HAL库常用函数</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/19/STM32%E5%AF%84%E5%AD%98%E5%99%A8/">
-                            STM32寄存器笔记
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            寄存器（Register）是单片机内部一种特殊的内存，它可以实现对单片机各个功能的控制，简单的来说可以把寄存器当成一些控制开关，控制包括内核及外设的各种状态。
-STM32的GPIO寄存器介绍STM32F1每组（这里是A~D）通用GPIO口有7个32位寄存器控制，包括：
-2个32位 端口配置 寄存器（CRL和CRH）
-2个32位 端口数据 寄存器（IDR和ODR）
-1个32位 端口置位&#x2...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Mar 19 2025 19:42:44 GMT+0800">
-                
-                    2025-03-19
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/19/STM32%E5%AF%84%E5%AD%98%E5%99%A8/">阅读全文<span class="seo-reader-text">STM32寄存器笔记</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/19/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/">
-                            STM32正点原子笔记
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            PWM的频率：时钟频率是72MHz，PSC是7199，ARR是9999，
-PWM的频率&#x3D;时钟频率&#x2F;（PSC+1）×（ARR+1）&#x3D;72MHz&#x2F;（7199+1）×（9999+1）&#x3D;1Hz。
-PWM的占空比：Pulse&#x2F;（ARR+1）&#x3D;5000&#x2F;（9999+1）&#x3D;50%（可以任意设置，只要不是0%就可以，对...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Wed Mar 19 2025 08:37:56 GMT+0800">
-                
-                    2025-03-19
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/19/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/">阅读全文<span class="seo-reader-text">STM32正点原子笔记</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/17/%E5%9F%BA%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E7%82%B9%E7%81%AF%E5%AE%9E%E9%AA%8C/">
-                            项目一：基于HAL库的点灯实验
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            逻辑电平在数字电路中，我们通常有高电平（High）和低电平（Low）两种状态，这是两个不同的电压信号，具体对应的电压值与单片机有关。在 STM32 单片机、ESP32 单片机中，高电平的电压值为 3.3V，低电平的电压值为 0V。
-除此之外，还有一个状态叫做高阻态（High Impedance，简称 HiZ），这个状态相当于断路（电阻正无穷），不会流经电流。举例来说，电压表的两个接线柱之间就...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Mar 17 2025 17:00:04 GMT+0800">
-                
-                    2025-03-17
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/17/%E5%9F%BA%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E7%82%B9%E7%81%AF%E5%AE%9E%E9%AA%8C/">阅读全文<span class="seo-reader-text">项目一：基于HAL库的点灯实验</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-            <li class="home-article-item">
-
-                
-
-                
-
-                
-                <div class="flex flex-col gap-5 px-7 pb-7 pt-7">
-                    <h3 class="home-article-title">
-                        <a href="/2025/03/17/Hello%20World/">
-                            Hello World
-                        </a>
-                    </h3>
-
-                    <div class="home-article-content markdown-body">
-                        
-                            
-                            Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Qu...
-                        
-                    </div>
-
-                    <div class="home-article-meta-info-container">
-    <div class="home-article-meta-info">
-        <span><i class="fa-solid fa-calendars"></i>&nbsp;
-            <span class="home-article-date" data-date="Mon Mar 17 2025 16:45:23 GMT+0800">
-                
-                    2025-03-17
-                
-            </span>
-        </span>
-        
-        
-    </div>
-
-    <a href="/2025/03/17/Hello%20World/">阅读全文<span class="seo-reader-text">Hello World</span>&nbsp;<i class="fa-solid fa-angle-right"></i></a>
-</div>
-
-                </div>
-            </li>
-        
-    </ul>
-
-    <div class="home-paginator px-7 py-5">
-        <div class="paginator">
-	<span class="page-number current">1</span>
-</div>
   
-    </div>
-</div>
+  <aside class="sidebar">
 
-			</div>
+    <div class="sidebar-inner sidebar-overview-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
 
-			
-		</div>
-
-		<div class="main-content-footer">
-			<footer class="footer mt-5 py-5 h-auto text-base text-third-text-color relative border-t-2 border-t-border-color">
-    <div class="info-container py-3 text-center">
-        
-        <div class="text-center">
-            &copy;
-            
-              <span>2025</span>
-              -
-            
-            2025&nbsp;&nbsp;<i class="fa-solid fa-heart fa-beat" style="--fa-animation-duration: 0.5s; color: #f54545"></i>&nbsp;&nbsp;<a href="/">koneko</a>
-            
-                
-                <p class="post-count space-x-0.5">
-                    <span>
-                        共撰写了 6 篇文章
-                    </span>
-                    
-                </p>
-            
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
         </div>
-        
-            <script data-swup-reload-script src="https://cn.vercount.one/js"></script>
-            <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
-                
-                    <span id="busuanzi_container_site_uv" class="lg:!block">
-                        <span class="text-sm">访问人数</span>
-                        <span id="busuanzi_value_site_uv"></span>
-                    </span>
-                
-                
-                    <span id="busuanzi_container_site_pv" class="lg:!block">
-                        <span class="text-sm">总访问量</span>
-                        <span id="busuanzi_value_site_pv"></span>
-                    </span>
-                
-            </div>
-        
-        <div class="relative text-center lg:absolute lg:left-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-left">
-            <span class="lg:block text-sm">由 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg class="relative top-[2px] inline-block align-baseline" version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1rem" height="1rem" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"><path fill="#0E83CD" d="M256.4,25.8l-200,115.5L56,371.5l199.6,114.7l200-115.5l0.4-230.2L256.4,25.8z M349,354.6l-18.4,10.7l-18.6-11V275H200v79.6l-18.4,10.7l-18.6-11v-197l18.5-10.6l18.5,10.8V237h112v-79.6l18.5-10.6l18.5,10.8V354.6z"/></svg><a target="_blank" class="text-base" href="https://hexo.io">Hexo</a> 驱动</span>
-            <span class="text-sm lg:block">主题&nbsp;<a class="text-base" target="_blank" href="https://github.com/EvanNotFound/hexo-theme-redefine">Redefine v2.8.2</a></span>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">niko</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">6</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
         </div>
-        
-        
-            <div>
-                博客已运行 <span class="odometer" id="runtime_days" ></span> 天 <span class="odometer" id="runtime_hours"></span> 小时 <span class="odometer" id="runtime_minutes"></span> 分钟 <span class="odometer" id="runtime_seconds"></span> 秒
-            </div>
-        
-        
-            <script data-swup-reload-script>
-                try {
-                    function odometer_init() {
-                    const elements = document.querySelectorAll('.odometer');
-                    elements.forEach(el => {
-                        new Odometer({
-                            el,
-                            format: '( ddd).dd',
-                            duration: 200
-                        });
-                    });
-                    }
-                    odometer_init();
-                } catch (error) {}
-            </script>
-        
-        
-        
-    </div>  
-</footer>
-		</div>
-	</div>
+      </div>
+    </div>
 
-	
+    
+  </aside>
 
-	<div class="right-side-tools-container">
-		<div class="side-tools-container">
-	<ul class="hidden-tools-list">
-		<li class="right-bottom-tools tool-font-adjust-plus flex justify-center items-center">
-			<i class="fa-regular fa-magnifying-glass-plus"></i>
-		</li>
 
-		<li class="right-bottom-tools tool-font-adjust-minus flex justify-center items-center">
-			<i class="fa-regular fa-magnifying-glass-minus"></i>
-		</li>
+    </div>
 
-		<li class="right-bottom-tools tool-dark-light-toggle flex justify-center items-center">
-			<i class="fa-regular fa-moon"></i>
-		</li>
+    <div class="main-inner index posts-expand">
 
-		<!-- rss -->
-		
+    
 
-		
 
-		<li class="right-bottom-tools tool-scroll-to-bottom flex justify-center items-center">
-			<i class="fa-regular fa-arrow-down"></i>
-		</li>
-	</ul>
+<div class="post-block">
+  
+  
 
-	<ul class="visible-tools-list">
-		<li class="right-bottom-tools toggle-tools-list flex justify-center items-center">
-			<i class="fa-regular fa-cog fa-spin"></i>
-		</li>
-		
-		<li class="right-bottom-tools tool-scroll-to-top flex justify-center items-center">
-			<i class="arrow-up fas fa-arrow-up"></i>
-			<span class="percent"></span>
-		</li>
-		
-		
-	</ul>
-</div>
-	</div>
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/21/STM32%E6%8E%92%E9%94%99/">
 
-	<div class="image-viewer-container">
-	<img src="">
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/21/STM32%E6%8E%92%E9%94%99/" class="post-title-link" itemprop="url">STM32寄存器笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+      
+
+      <time title="创建时间：2025-03-21 12:55:10 / 修改时间：12:58:52" itemprop="dateCreated datePublished" datetime="2025-03-21T12:55:10+08:00">2025-03-21</time>
+    </span>
+
+  
 </div>
 
-	
+        </div>
+      </header>
 
-</main>
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="中断"><a href="#中断" class="headerlink" title="中断"></a>中断</h3><p><code>HAL_Delay()</code> 延时函数有坑，因为其来源是 SysTick 定时器（在固定时间间隔内产生中断），所以就有所属的中断优先级。SysTick 的中断抢占优先级是 0，</p>
+<p>所以便无法在外部中断触发时接着触发 SysTick 了。所以，要把外部中断的抢占优先级改低（由 0 改为 1）。</p>
+<h3 id="GPIO"><a href="#GPIO" class="headerlink" title="GPIO"></a>GPIO</h3>
+      
+    </div>
 
+    
+    
+    
 
-
-<script src="/js/build/libs/Swup.min.js"></script>
-
-<script src="/js/build/libs/SwupSlideTheme.min.js"></script>
-
-<script src="/js/build/libs/SwupScriptsPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupProgressPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupScrollPlugin.min.js"></script>
-
-<script src="/js/build/libs/SwupPreloadPlugin.min.js"></script>
-
-<script>
-    const swup = new Swup({
-        plugins: [
-            new SwupScriptsPlugin({
-                optin: true,
-            }),
-            new SwupProgressPlugin(),
-            new SwupScrollPlugin({
-                offset: 80,
-            }),
-            new SwupSlideTheme({
-                mainElement: ".main-content-body",
-            }),
-            new SwupPreloadPlugin(),
-        ],
-        containers: ["#swup"],
-    });
-</script>
-
-
-
-
-	
-<script src="/js/build/tools/imageViewer.js" type="module"></script>
-
-<script src="/js/build/utils.js" type="module"></script>
-
-<script src="/js/build/main.js" type="module"></script>
-
-<script src="/js/build/layouts/navbarShrink.js" type="module"></script>
-
-<script src="/js/build/tools/scrollTopBottom.js" type="module"></script>
-
-<script src="/js/build/tools/lightDarkSwitch.js" type="module"></script>
-
-<script src="/js/build/layouts/categoryList.js" type="module"></script>
-
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
 
 
 
 
     
-<script src="/js/build/tools/codeBlock.js" type="module"></script>
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/20/STM32-HAL%E5%BA%93%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/20/STM32-HAL%E5%BA%93%E5%B8%B8%E7%94%A8%E5%87%BD%E6%95%B0/" class="post-title-link" itemprop="url">STM32 HAL库常用函数</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-03-20 08:30:57" itemprop="dateCreated datePublished" datetime="2025-03-20T08:30:57+08:00">2025-03-20</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-03-25 15:45:45" itemprop="dateModified" datetime="2025-03-25T15:45:45+08:00">2025-03-25</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h3 id="GPIO-函数"><a href="#GPIO-函数" class="headerlink" title="GPIO 函数"></a>GPIO 函数</h3><h4 id="HAL-GPIO-Init函数"><a href="#HAL-GPIO-Init函数" class="headerlink" title="HAL_GPIO_Init函数"></a>HAL_GPIO_Init函数</h4><p>要使用一个外设我们首先要对它进行初始化，所以我们先看外设GPIO的初始化函数。其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cvoid <span class="title function_">HAL_GPIO_Init</span><span class="params">(GPIO_TypeDef  *GPIOx,GPIO_InitTypeDef *GPIO_Init)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：<br>用于配置GPIO功能模式，还可以设置EXTI功能。函数形参：<br><strong>形参1</strong>是端口号，可以有以下的选择：</p>
+<p>#define GPIOA  ((GPIO TypeDef * GPIOA BASE) </p>
+<p>#define GPIOB  ((GPIO TypeDef * GPIOB BASE) </p>
+<p>#define GPIOC  ((GPIO TypeDef * GPIOC BASE) </p>
+<p>#define GPIOD  ((GPIO TypeDef * GPIOD BASE) </p>
+<p>#define GPIOE  ((GPIO TypeDef * GPIOE BASE) </p>
+<p>#define GPIOF  ((GPIO TypeDef * GPIOF BASE) </p>
+<p>#define GPIOG  ((GPIO TypeDef * GPIOG BASE)</p>
+<p><strong>形参2</strong>是GPIO_InitTypeDef类型的结构体变量，其定义如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    uint32_tPin;<span class="comment">/* 引脚号*/</span></span><br><span class="line">    uint32_tMode;<span class="comment">/* 模式设置*/</span></span><br><span class="line">    uint32_tPull;<span class="comment">/* 上拉下拉设置*/</span></span><br><span class="line">    uint32_tSpeed;<span class="comment">/* 速度设置*/</span></span><br><span class="line">&#125; GPIO_InitTypeDef;</span><br></pre></td></tr></table></figure>
+
+<p>该结构体很重要，下面对每个成员介绍一下。<br><strong>成员Pin</strong> 表示引脚号，范围：GPIO_PIN_0到GPIO_PIN_15,另外还有GPIO_PIN_All和 GPIO PIN MASK 可选。<br><strong>成员Mode</strong> 是GPIO的模式选择，有以下选择项：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_INPUT               (0x00000000U)  <span class="comment">/* 输入模式*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_OUTPUT_PP           (0x00000001U)   <span class="comment">/* 推挽输出*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_OUTPUT_OD           (0x00000011U)   <span class="comment">/* 开漏输出*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_AF_PP               (0x00000002U)   <span class="comment">/* 推挽式复用*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_AF_OD               (0x00000012U)   <span class="comment">/* 开漏式复用*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_AF_INPUTGPIO_MODE_INPUT</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_ANALOG              (0x00000003U)<span class="comment">/* 模拟模式*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_IT_RISING           (0x10110000u)  <span class="comment">/* 外部中断，上升沿触发检测*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_IT_FALLING          (0x10210000u)  <span class="comment">/* 外部中断，下降沿触发检测*/</span></span></span><br><span class="line"><span class="comment">/* 外部中断，上升和下降双沿触发检测*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_IT_RISING_FALLING   (0x10310000u) </span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_EVT_RISING          (0x10120000U) <span class="comment">/*外部事件，上升沿触发检测*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_EVT_FALLING         (0x10220000U) <span class="comment">/*外部事件，下降沿触发检测*/</span></span></span><br><span class="line"><span class="comment">/* 外部事件，上升和下降双沿触发检测*/</span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_MODE_EVT_RISING_FALLING  (0x10320000U)</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>成员Pull</strong>用于配置上下拉电阻，有以下选择项：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_SPEED_FREQ_LOW         (0x00000002U)<span class="comment">/* 低速*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_SPEED_FREQ_MEDIUM      (0x00000001U)<span class="comment">/* 中速*/</span></span></span><br><span class="line"><span class="meta">#<span class="keyword">define</span>  GPIO_SPEED_FREQ_HIGH        (0x00000003U)<span class="comment">/* 高速*/</span></span></span><br></pre></td></tr></table></figure>
+
+<p><strong>函数返回值</strong>：无 </p>
+<h4 id="HAL-GPIO-WritePin函数"><a href="#HAL-GPIO-WritePin函数" class="headerlink" title="HAL GPIO_WritePin函数"></a>HAL GPIO_WritePin函数</h4><p><strong>HAL GPIO_WritePin 函数是GPIO口的写引脚函数。</strong></p>
+<p>其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> HAL GPIO <span class="title function_">WritePin</span><span class="params">(GPIO TypeDef *GPIOx, uint16 t GPIO Pin,GPIO PinState PinState)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：<br>用于设置引脚输出高电平或者低电平，通过<strong>BSRR</strong>寄存器复位或者置位操作。</p>
+<p>函数形参：<br><strong>形参1</strong>是端口号，可以选择范围：<strong>GPIOA～GPIOG</strong>。<br><strong>形参2</strong>是引脚号，可以选择范围：<strong>GPIO PIN_0到GPIO PIN_15</strong>。<br><strong>形参3</strong>是要设置输出的状态，是枚举型有两个选择：</p>
+<p><strong>GPIO_PIN_SET表示高电平，GPIO PIN RESET 表示低电平。</strong><br>函数返回值： 无</p>
+<h4 id="HAL-GPIO-TogglePin-函数"><a href="#HAL-GPIO-TogglePin-函数" class="headerlink" title="HAL_GPIO_TogglePin 函数"></a>HAL_GPIO_TogglePin 函数</h4><p><strong>HAL_GPIO_TogglePin 函数是GPIO口的电平翻转函数。</strong></p>
+<p>其声明如下： </p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> HAL GPIO <span class="title function_">TogglePin</span><span class="params">(GPIO TypeDef *GPIOx, uint16 t GPIO Pin)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：<br>用于设置引脚的电平翻转，也是通过<strong>BSRR</strong>寄存器复位或者置位操作。函数形参：<br><strong>形参1</strong>是端口号，可以选择范围：<strong>GPIOA～GPIOG</strong>。<br><strong>形参2</strong>是引脚号，可以选择范围：<strong>GPIO_PIN_0到GPIO_PIN_15</strong>。 </p>
+<p>**函数返回值：**无</p>
+<h3 id="GPIO外部中断函数"><a href="#GPIO外部中断函数" class="headerlink" title="GPIO外部中断函数"></a>GPIO外部中断函数</h3><h4 id="HAL-NVIC-SetPriorityGrouping函数"><a href="#HAL-NVIC-SetPriorityGrouping函数" class="headerlink" title="HAL_NVIC_SetPriorityGrouping函数"></a><strong>HAL_NVIC_SetPriorityGrouping函数</strong></h4><p>HAL_NVIC_SetPriorityGrouping是设置中断优先级分组函数。其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_NVIC_SetPriorityGrouping</span><span class="params">(uint32_tPriorityGroup)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于设置中断优先级分组。</p>
+<p>函数形参：形参1是中断优先级分组号，可以选择范围：NVIC_PRIORITYGROUP_0到NVIC_PRIORITYGROUP_4（共5组）。</p>
+<p>函数返回值：无</p>
+<p>注意事项：这个函数在一个工程里基本只调用一次，而且是在程序HAL库初始化函数里面已经被调用，后续就不会再调用了。因为当后续调用设置成不同的中断优先级分组时，有可能造成前面设置好的抢占优先级和响应优先级不匹配。</p>
+<h4 id="HAL-NVIC-SetPriority函数"><a href="#HAL-NVIC-SetPriority函数" class="headerlink" title="HAL_NVIC_SetPriority函数"></a><strong>HAL_NVIC_SetPriority函数</strong></h4><p>HAL_NVIC_SetPriority是设置中断优先级函数。</p>
+<p>其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_NVIC_SetPriority</span><span class="params">(IRQn_Type IRQn,uint32_tPreemptPriority,uint32_tSubPriority)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于设置中断的抢占优先级和响应优先级（子优先级）。</p>
+<p>函数形参：</p>
+<p>形参1是中断号，可以选择范围：IRQn_Type定义的枚举类型，定义在stm32f103xe.h。</p>
+<p>形参2是抢占优先级，可以选择范围：0到15。</p>
+<p>形参3是响应优先级，可以选择范围：0到15。</p>
+<p>函数返回值：无</p>
+<h4 id="HAL-NVIC-EnableIRQ函数"><a href="#HAL-NVIC-EnableIRQ函数" class="headerlink" title="HAL_NVIC_EnableIRQ函数"></a><strong>HAL_NVIC_EnableIRQ函数</strong></h4><p>HAL_NVIC_EnableIRQ是中断使能函数。</p>
+<p>其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_NVIC_EnableIRQ</span><span class="params">(IRQn_Type IRQn)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于使能中断。</p>
+<p>函数形参：形参IRQn是中断号，可以选择范围：IRQn_Type定义的枚举类型，定义在stm32f103xe.h。</p>
+<p>函数返回值：无</p>
+<h4 id="HAL-NVIC-DisableIRQ函数"><a href="#HAL-NVIC-DisableIRQ函数" class="headerlink" title="HAL_NVIC_DisableIRQ函数"></a><strong>HAL_NVIC_DisableIRQ函数</strong></h4><p>HAL_NVIC_DisableIRQ是中断除能函数。</p>
+<p>其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_NVIC_disableIRQ</span><span class="params">(IRQn_Type IRQn)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于中断除能。</p>
+<p>函数形参：形参IRQn是中断号，可以选择范围：IRQn_Type定义的枚举类型，定义在stm32f103xe.h。</p>
+<p>函数返回值：无</p>
+<h4 id="HAL-NVIC-SystemReset函数"><a href="#HAL-NVIC-SystemReset函数" class="headerlink" title="HAL_NVIC_SystemReset函数"></a><strong>HAL_NVIC_SystemReset函数</strong></h4><p>HAL_NVIC_SystemReset是系统复位函数。</p>
+<p>其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_NVIC_SystemReset</span><span class="params">(<span class="type">void</span>)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于软件复位系统。</p>
+<p>函数形参：无形参</p>
+<p>函数返回值：无其他的NVIC函数用得较少，我们就不一一列出来了。</p>
+<p>NVIC的介绍就到这，下面介绍外部中断。</p>
+<h4 id="HAL-GPIO-EXTI-Callbackh-函数"><a href="#HAL-GPIO-EXTI-Callbackh-函数" class="headerlink" title="HAL_GPIO_EXTI_Callbackh 函数"></a>HAL_GPIO_EXTI_Callbackh 函数</h4><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_GPIO_EXTI_Callback</span><span class="params">(<span class="type">uint16_t</span> GPIO_Pin)</span></span><br></pre></td></tr></table></figure>
+
+<p>这是stm32 HAL库中的一个回调函数。</p>
+<p>当GPIO口的外部中断事件被触发时，HAL库会自动调用这个函数，以执行用户自定义的中断处理操作。</p>
+<p>其中，GPIO_Pin表示触发中断的GPIO口的引脚号，可以根据这个参数来判断是哪个GPIO口触发了中断事件。</p>
+<p>用户可以在程序中重写这个函数，以实现自己的中断处理逻辑。例如，当外部中断触发时，可以在这个函数中读取相应的<a target="_blank" rel="noopener" href="https://wenku.csdn.net/doc/3czgh5v8aj?spm=1055.2569.3001.10083&kwd=%E4%BC%A0%E6%84%9F%E5%99%A8%E6%95%B0%E6%8D%AE">传感器数据</a>，并进行相应的处理，以实现更加智能化的系统功能。</p>
+<h3 id="定时器中断函数"><a href="#定时器中断函数" class="headerlink" title="定时器中断函数"></a>定时器中断函数</h3><ul>
+<li><strong>HAL_TIM_Base_Init()</strong>：初始化定时器时基单元。</li>
+<li><strong>HAL_TIM_Base_DeInit()</strong>：禁用定时器，与初始化相反。</li>
+<li><strong>HAL_TIM_Base_MspInit()</strong>：MSP 初始化函数，定时器初始化时会自动调用。</li>
+<li><strong>HAL_TIM_Base_MspDeInit()</strong>：与上一个相反。</li>
+<li><strong>HAL_TIM_Base_Start()</strong>：开启定时器。</li>
+<li><strong>HAL_TIM_Base_Stop()</strong>：停止定时器。</li>
+<li><strong>HAL_TIM_Base_Start_IT()</strong>：以中断模式开启定时器。</li>
+<li><strong>HAL_TIM_Base_Stop_IT()</strong>：关闭中断模式的定时器。</li>
+<li><strong>HAL_TIM_Base_Start_DMA()</strong>：以 DMA 模式开启定时器。</li>
+<li><strong>HAL_TIM_Base_Stop_DMA()</strong>：关闭 DMA 模式的定时器。</li>
+</ul>
+<h3 id="串口通信函数"><a href="#串口通信函数" class="headerlink" title="串口通信函数"></a>串口通信函数</h3><h5 id="HAL-UART-Init函数"><a href="#HAL-UART-Init函数" class="headerlink" title="HAL_UART_Init函数"></a>HAL_UART_Init函数</h5><p>要使用一个外设首先要对它进行初始化，所以先看串口的初始化函数，其声明如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HAL StatusTypeDef HAL UART Init(UART HandleTypeDef *huart);</span><br></pre></td></tr></table></figure>
+
+<p>  函数描述：<br>  用于初始化异步模式的收发器。○函数形参：<br>  形参1是串口的句柄，结构体类型是UART HandleTypeDef，其定义如下：</p>
+<h5 id="HAL-UART-Receive-IT函数"><a href="#HAL-UART-Receive-IT函数" class="headerlink" title="HAL_UART_Receive_IT函数"></a>HAL_UART_Receive_IT函数</h5><p>HAL_UART_Receive_IT函数是开启串口接收中断函数。其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">HAL_StatusTypeDef <span class="title function_">HAL_UART_Receive_IT</span><span class="params">(UART_HandleTypeDef *huart,<span class="type">uint8_t</span>*pData,uint16_tSize)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：用于开启以中断的方式接收指定字节。数据接收在中断处理函数里面实现。</p>
+<p>函数形参：</p>
+<p>形参1是UART_HandleTypeDef 结构体指针类型的串口句柄。</p>
+<p>形参2是要接收的数据地址。</p>
+<p>形参3是要接收的数据大小，以字节为单位。</p>
+<p>函数返回值：HAL_StatusTypeDef枚举类型的值。</p>
+<h5 id="HAL-UART-IRQHandler函数"><a href="#HAL-UART-IRQHandler函数" class="headerlink" title="HAL_UART_IRQHandler函数"></a>HAL_UART_IRQHandler函数</h5><p>HAL_UART_IRQHandler函数是HAL库中断处理公共函数。其声明如下：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">HAL_UART_IRQHandler</span><span class="params">(UART_HandleTypeDef *huart)</span>;</span><br></pre></td></tr></table></figure>
+
+<p>函数描述：该函数是HAL库中断处理公共函数，在串口中断服务函数中被调用。</p>
+<p>函数形参：形参1是UART_HandleTypeDef 结构体指针类型的串口句柄。</p>
+<p>函数返回值：无</p>
+<p>HAL_UART_RxCpltCallback函数</p>
+<p><code>HAL_UART_RxCpltCallback</code> 是 STM32 HAL 库中的 UART 接收完成回调函数。当 UART 接收数据完成（通常是使用中断或 DMA 方式）时，HAL 库会自动调用此函数。</p>
+<h5 id="USART1-IRQHandler函数"><a href="#USART1-IRQHandler函数" class="headerlink" title="USART1_IRQHandler函数"></a>USART1_IRQHandler函数</h5>
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
 
 
 
 
     
-<script src="/js/build/layouts/lazyload.js" type="module"></script>
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/19/STM32%E5%AF%84%E5%AD%98%E5%99%A8/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/19/STM32%E5%AF%84%E5%AD%98%E5%99%A8/" class="post-title-link" itemprop="url">STM32寄存器笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-03-19 19:42:44" itemprop="dateCreated datePublished" datetime="2025-03-19T19:42:44+08:00">2025-03-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-03-23 20:21:38" itemprop="dateModified" datetime="2025-03-23T20:21:38+08:00">2025-03-23</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="寄存器（Register）"><a href="#寄存器（Register）" class="headerlink" title="寄存器（Register）"></a><strong>寄存器（Register）</strong></h2><p>是单片机内部一种特殊的内存，它可以实现对单片机各个功能的控制，简单的来说可以把寄存器当成一些控制开关，控制包括内核及外设的各种状态。</p>
+<h3 id="STM32的GPIO寄存器介绍"><a href="#STM32的GPIO寄存器介绍" class="headerlink" title="STM32的GPIO寄存器介绍"></a>STM32的GPIO寄存器介绍</h3><p>STM32F1每组（这里是A~D）通用GPIO口有7个32位寄存器控制，包括：</p>
+<p>2个32位 端口配置 寄存器（CRL和CRH）</p>
+<p>2个32位 端口数据 寄存器（IDR和ODR）</p>
+<p>1个32位 端口置位&#x2F;复位 寄存器（BSRR）</p>
+<p>1个16位 端口复位 寄存器（BRR）</p>
+<p>1个32位 端口锁定 寄存器(LCKR)</p>
+<p>每组GPIO下有16个IO口，一个寄存器共32位，每4个位控制1个IO，所以才需要两个寄存器完成。</p>
+<h5 id="端口配置寄存器（GPIOx-CRL和GPIOx-CRH）"><a href="#端口配置寄存器（GPIOx-CRL和GPIOx-CRH）" class="headerlink" title="端口配置寄存器（GPIOx_CRL和GPIOx_CRH）"></a>端口配置寄存器（GPIOx_CRL和GPIOx_CRH）</h5><p>这两个寄存器都是GPIO口配置寄存器，不过<strong>CRL控制端口的低八位</strong>，<strong>CRH控制端口的高八位</strong>。</p>
+<p>端口配置 寄存器的作用是控制GPIO口的工作模式和工作速度，寄存器描述如图.</p>
+<p><img src="/../images/STM32%E5%AF%84%E5%AD%98%E5%99%A8/image-20250319195419781.png" alt="image-20250319195419781"></p>
+<center>GPIOx_CRL寄存器描述</center>
+
+
+
+<p><img src="/../images/STM32%E5%AF%84%E5%AD%98%E5%99%A8/image-20250319195846765.png" alt="image-20250319195846765"></p>
+<center>GPIOx_CRH寄存器描述</center>
+
+
+
+<p>上面这2个配置寄存器就是用来配置GPIO的相关工作模式和工作速度，它们通过不同的配置组合方法，就决定了8种工作模式。</p>
+<h5 id="端口输出数据寄存器（GPIOx-ODR）"><a href="#端口输出数据寄存器（GPIOx-ODR）" class="headerlink" title="端口输出数据寄存器（GPIOx_ODR）"></a>端口输出数据寄存器（GPIOx_ODR）</h5><p><strong>该寄存器低16位有效</strong>，分别对应每一组GPIO的16个引脚。当CPU写访问该寄存器，<strong>如果对应的某位写0(ODRy&#x3D;0)，则表示设置该IO口输出的是低电平</strong>，<strong>如果写1(ODRy&#x3D;1)，则表示设置该IO口输出的是高电平</strong>，<strong>y&#x3D;0~15</strong>。此外，<strong>除了ODR寄存器，还有一个寄存器也是用于控制GPIO输出的，它就是BSRR寄存器</strong>。</p>
+<p>该寄存器用于控制GPIOx的输出高电平或者低电平，寄存器描述如图</p>
+<p><img src="/../images/STM32%E5%AF%84%E5%AD%98%E5%99%A8/image-20250319200944196.png" alt="image-20250319200944196"></p>
+<center>GPIOx_ODR寄存器描述</center>
+
+
+
+<h5 id="端口置位-复位寄存器（GPIOx-BSRR）"><a href="#端口置位-复位寄存器（GPIOx-BSRR）" class="headerlink" title="端口置位&#x2F;复位寄存器（GPIOx_BSRR）"></a>端口置位&#x2F;复位寄存器（GPIOx_BSRR）</h5><p><strong>BSRR寄存器32位有效</strong>，对于低16位（0-15），我们往相应的位写1(BSy&#x3D;1)，那么对应的IO口会输出高电平，往相应的位写0(BSy&#x3D;0)，对IO口没有任何影响。</p>
+<p>高16位（16-31）作用刚好相反，对相应的位写1(BRy&#x3D;1)会输出低电平，写0(BRy&#x3D;0)没有任何影响，y&#x3D;0~15。也就是说，**对于BSRR寄存器，你写0的话，对IO口电平是没有任何影响的。**我们要设置某个IO口电平，只需要相关位设置为1即可。而ODR寄存器，我们要设置某个IO口电平，我们首先需要读出来ODR寄存器的值，然后对整个ODR寄存器重新赋值来达到设置某个或者某些IO口的目的，而BSRR寄存器直接设置即可，这在多任务实时操作系统中作用很大。<strong>BSRR寄存器还有一个好处，就是BSRR寄存器改变引脚状态的时候，不会被中断打断，而ODR寄存器有被中断打断的风险。</strong></p>
+<p>该寄存器也用于控制GPIOx的输出高电平或者低电平，寄存器描述如图</p>
+<p><img src="/../images/STM32%E5%AF%84%E5%AD%98%E5%99%A8/image-20250319201903617.png" alt="image-20250319201903617"></p>
+<center>GPIOx_BSRR寄存器描述</center>
+
+
+
+<h5 id="端口输入数据寄存器（GPIOx-IDR）"><a href="#端口输入数据寄存器（GPIOx-IDR）" class="headerlink" title="端口输入数据寄存器（GPIOx_IDR）"></a>端口输入数据寄存器（GPIOx_IDR）</h5><p>该寄存器用于存储GPIOx的输入状态，它连接到施密特触发器上，IO口外部的电平信号经过触发器后，模拟信号就被转化成0和1这样的数字信号，并存储到该寄存器中。寄存器描述如图</p>
+<p><img src="/../images/STM32%E5%AF%84%E5%AD%98%E5%99%A8/image-20250320141732281.png" alt="image-20250320141732281"></p>
+<center>GPIOx_IDR端口输入数据寄存器</center>
+
+
+
+<p>该寄存器低16位有效，分别对应每一组GPIO的16个引脚。当CPU访问该寄存器，如果对应的某位为0(IDRy&#x3D;0)，则说明该IO口输入的是低电平，如果是1(IDRy&#x3D;1)，则表示输入的是高电平，y&#x3D;0~15。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tmp = *(<span class="type">unsigned</span> <span class="type">int</span> *)GPIOB_IDR; <span class="comment">//示例 </span></span><br></pre></td></tr></table></figure>
+
+<h3 id="外部中断寄存器"><a href="#外部中断寄存器" class="headerlink" title="外部中断寄存器:"></a>外部中断寄存器:</h3><p><strong>ISER[8]</strong>：ISER全称是：Interrupt SetEnable Registers，这是一个中断使能寄存器组。</p>
+<p>CM3内核支持256个中断，STM32F1 这里用8个32位寄存器来控制，一共64位，每个位控制一个中断。</p>
+<p>STM32F103的可屏蔽中断最多只有60个，所以<strong>有用的就是两个(ISER[0]和ISER[1])</strong>，总共可以表示64个中断。</p>
+<p>**ISER[0]**的bit 0~31分别对应中断0~31；</p>
+<p>ISER[1]的bit0~27对应中断32~59，这样总共60个中断就可以分别对应上了。</p>
+<p>要使能某个中断，必须设置相应的ISER位为1，使该中断被使能(这里仅仅是使能，还要配合中断分组、屏蔽、IO口映射等设置才算是一个完整的中断设置)。</p>
+<p>具体每一位对应哪个中断，参考stm32f103xe.h里面的第69行。</p>
+<h3 id="串口寄存器"><a href="#串口寄存器" class="headerlink" title="串口寄存器:"></a>串口寄存器:</h3><p>数据寄存器</p>
+<p>USART_DR包含了已发送或接收到的数据。</p>
+<p>由于它本身就是两个寄存器组成的，一个专门给发送用的（TDR），一个专门给接收用的（RDR）,该寄存器具备读和写的功能。</p>
+<p>TDR寄存器提供了内部总线和输出移位寄存器之间的并行接口。</p>
+<p>RDR寄存器提供了输入移位寄存器和内部总线之间的并行接口。</p>
+<p>当进行数据发送操作时，往USART_DR中写入数据会自动存储在TDR内；</p>
+<p>当进行读取操作时，向USART_DR读取数据会自动提去RDR数据。</p>
+<p>USART数据寄存器（USART_DR）低9位数据有效，其他数据位保留。</p>
+<p>USART_DR的第9位数据是否有效跟USART_CR1的M位设置有关，当M位为0表示8位数据字长；</p>
+<p>当M位为1时表示9位数据字长，一般使用8位数据字长。当使能校验位(USART_CR1中PCE位被置位)进行发送时，写到MSB 的值(根据数据的长度不同，MSB 是第7位或者第8位)会被后来的校验位取代。</p>
+<p><strong>USART寄存器</strong></p>
+<p>使用STM32F103的USART的配置步骤：</p>
+<ol>
+<li><p>通过在USART_CR1寄存器上置位UE位来激活USART。</p>
+</li>
+<li><p>编程USART_CR1的M位来定义字长。</p>
+</li>
+<li><p>在USART_CR2中编程停止位的位数。</p>
+</li>
+<li><p>如果采用多缓冲器通信，配置USART_CR3中的DMA使能位(DMAT)。按多缓冲器通信中的描述配置DMA寄存器。</p>
+</li>
+<li><p>利用USART_BRR寄存器选择要求的波特率。</p>
+</li>
+<li><p>设置USART_CR1中的TE位，发送一个空闲帧作为第一次数据发送。</p>
+</li>
+<li><p>把要发送的数据写进USART_DR寄存器(此动作清除TXE位)。在只有一个缓冲器的情况下，对每个待发送的数据重复步骤7。</p>
+</li>
+<li><p>在USART_DR寄存器中写入最后一个数据字后，要等待TC&#x3D;1，它表示最后一个数据帧的传输结束。当需要关闭USART或需要进入停机模式之前，需要确认传输结束，避免破坏最后一次传输。</p>
+<p>我们按照上面的步骤配置就可以使用STM32F103的串口了：只要你开启了串口时钟，并设置相应IO口的模式，然后配置一下波特率，数据位长度，奇偶校验位等信息，就可以使用了。总结地来说，我们要学会配置USART对应的寄存器就可以使用串口功能了。下面，我们就简单介绍下这几个与串口基本配置直接相关的寄存器。</p>
+</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
 
 
 
 
     
-<script src="/js/build/tools/runtime.js"></script>
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/19/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/19/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/" class="post-title-link" itemprop="url">STM32正点原子笔记</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-03-19 08:37:56" itemprop="dateCreated datePublished" datetime="2025-03-19T08:37:56+08:00">2025-03-19</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-03-29 18:23:20" itemprop="dateModified" datetime="2025-03-29T18:23:20+08:00">2025-03-29</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
 
     
-<script src="/js/build/libs/odometer.min.js"></script>
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h5 id="PWM的频率："><a href="#PWM的频率：" class="headerlink" title="PWM的频率："></a>PWM的频率：</h5><p>时钟频率是72MHz，PSC是7199，ARR是9999，</p>
+<p>PWM的频率&#x3D;时钟频率&#x2F;（PSC+1）×（ARR+1）&#x3D;72MHz&#x2F;（7199+1）×（9999+1）&#x3D;1Hz。</p>
+<h5 id="PWM的占空比："><a href="#PWM的占空比：" class="headerlink" title="PWM的占空比："></a>PWM的占空比：</h5><p>Pulse&#x2F;（ARR+1）&#x3D;5000&#x2F;（9999+1）&#x3D;50%（可以任意设置，只要不是0%就可以，对实验结果无影响）</p>
+<p>TIM2_CH1对应的引脚是PA0，生成的PWM波，作为脉冲计数的外部时钟源。</p>
+<p>​	</p>
+<h5 id="定时器原理"><a href="#定时器原理" class="headerlink" title="定时器原理:"></a>定时器原理:</h5><p><img src="/../images/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/image-20250326214442567.png" alt="image-20250326214442567"></p>
+<p>PWM模式</p>
+<p><img src="/../images/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/image-20250327164139317.png" alt="image-20250327164139317"></p>
+<h5 id="printf重定向；"><a href="#printf重定向；" class="headerlink" title="printf重定向；"></a>printf重定向；</h5><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">fputc</span><span class="params">(<span class="type">int</span> ch,FILE *f)</span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">fputc</span><span class="params">(<span class="type">int</span> ch,FILE *f)</span></span><br><span class="line">&#123;</span><br><span class="line">  <span class="type">uint8_t</span> temp[<span class="number">1</span>]=&#123;ch&#125;;</span><br><span class="line">  HAL_UART_Transmit(&amp;huart1,temp,<span class="number">1</span>,<span class="number">2</span>);</span><br><span class="line">  <span class="keyword">return</span> ch;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+
+
+
+
+<h5 id="PWM相位差"><a href="#PWM相位差" class="headerlink" title="PWM相位差"></a>PWM相位差</h5><pre><code>HAL_TIM_Base_Start(&amp;htim8);
+HAL_TIM_OC_Start(&amp;htim8,TIM_CHANNEL_1);
+HAL_TIM_OC_Start(&amp;htim8,TIM_CHANNEL_2);
+</code></pre>
+<p><img src="/../images/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/image-20250328090605638.png" alt="image-20250328090605638"></p>
+<h5 id="电机驱动方式"><a href="#电机驱动方式" class="headerlink" title="电机驱动方式"></a>电机驱动方式</h5><p><img src="/../images/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/image-20250328094119112.png" alt="image-20250328094119112"></p>
+<p><img src="/../images/STM32%E6%AD%A3%E7%82%B9%E5%8E%9F%E5%AD%90%E7%AC%94%E8%AE%B0/image-20250328094205602.png" alt="image-20250328094205602"></p>
+<p>TIM相关函数</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">HAL_TIM_Base_Start(&amp;htim2); <span class="comment">//开启定时器计数</span></span><br><span class="line">HAL_TIM_IC_Start(&amp;htim2,TIM_CHANNEL_3);  <span class="comment">//开启输入捕获 IC是输入捕获</span></span><br><span class="line">HAL_TIM_IC_Start_IT(&amp;htim2,TIM_CHANNEL_4);  <span class="comment">//开启输入捕获与对应中断 IC是输入捕获</span></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
 
     
-<link rel="stylesheet" href="/assets/odometer-theme-minimal.css">
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/17/%E5%9F%BA%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E7%82%B9%E7%81%AF%E5%AE%9E%E9%AA%8C/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/17/%E5%9F%BA%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E7%82%B9%E7%81%AF%E5%AE%9E%E9%AA%8C/" class="post-title-link" itemprop="url">项目一：基于HAL库的点灯实验</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-03-17 17:00:04" itemprop="dateCreated datePublished" datetime="2025-03-17T17:00:04+08:00">2025-03-17</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2025-03-20 17:15:39" itemprop="dateModified" datetime="2025-03-20T17:15:39+08:00">2025-03-20</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="逻辑电平"><a href="#逻辑电平" class="headerlink" title="逻辑电平"></a>逻辑电平</h2><p>在数字电路中，我们通常有高电平（High）和低电平（Low）两种状态，这是两个不同的电压信号，具体对应的电压值与单片机有关。在 STM32 单片机、ESP32 单片机中，高电平的电压值为 3.3V，低电平的电压值为 0V。</p>
+<p>除此之外，还有一个状态叫做高阻态（High Impedance，简称 HiZ），这个状态相当于断路（电阻正无穷），不会流经电流。举例来说，电压表的两个接线柱之间就是一个高阻态，不会流经电流。</p>
+<p>单片机对电路的控制，就是通过程序控制单片机的引脚输出高电平、低电平或高阻态，从而控制外部电路的运行状态。</p>
+<p>而 GPIO（General Purpose Input&#x2F;Output，通用输入&#x2F;输出）便是完成这一功能的通用接口。</p>
+<p>以WEActSTM32F411CEU6最小系统板为例 板子上内置了一颗可以自定义的LED   连接到了GPIO PC13端口上。</p>
+<img src="../images/基于HAL库的点灯实验/image-20250317174019292.png" alt="image-20250317174019292"  />
+
+<p>从图中可以看出，LED 灯的两端分别连接到了 C13 引脚和与 3.3V 相连的限流电阻上。</p>
+<ul>
+<li>当 C13 引脚输出高电平（3.3V）时，LED 两端均为 3.3V（对地电压），LED 灯不会发光。</li>
+<li>当 C13 引脚输出低电平（0V）时，LED 灯会发光。</li>
+<li>所以PC13引脚要置为Output Push Pull。</li>
+</ul>
+<h2 id="实验操作"><a href="#实验操作" class="headerlink" title="实验操作"></a>实验操作</h2><p>1.打开STM32CUBEMX 选择对应的型号。</p>
+<p>2.选择对应的芯片型号，双击确认。</p>
+<img src="../images/基于HAL库的点灯实验/image-20250317174928965.png" alt="image-20250317174928965" style="zoom:50%;" />
+
+<p>3.根据烧录接口的类型，在 SYS 中选择 Debug 接口类型。如使用 SWD 协议（2 电源线 + 2 烧录通信线）进行烧录，则应该选择 「Serial Write」。</p>
+<img src="../images/基于HAL库的点灯实验/cubemx_debug_interface.webp" alt="cubemx_debug_interface" style="zoom:50%;" />
+
+<p>4.设置使用的晶振。</p>
+<img src="../images/基于HAL库的点灯实验/image-20250317175506149.png" alt="image-20250317175506149" style="zoom:50%;" />
+
+<p>5.调整运行频率（填写完回车应用）。</p>
+<p><img src="/../images/%E5%9F%BA%E4%BA%8EHAL%E5%BA%93%E7%9A%84%E7%82%B9%E7%81%AF%E5%AE%9E%E9%AA%8C/image-20250317175659696.png" alt="image-20250317175659696"></p>
+<p>6.在引脚布局视图（Pinout View），找到 C13 引脚，单击出现菜单，选择类型 「GPIO_Output」。</p>
+<img src="../images/基于HAL库的点灯实验/image-20250317175913785.png" alt="image-20250317175913785" style="zoom:50%;" />
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://example.com/2025/03/17/Hello%20World/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="niko">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="nya">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | nya">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2025/03/17/Hello%20World/" class="post-title-link" itemprop="url">Hello World</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2025-03-17 16:45:23" itemprop="dateCreated datePublished" datetime="2025-03-17T16:45:23+08:00">2025-03-17</time>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+  <div class="copyright">
+    &copy; 
+    <span itemprop="copyrightYear">2025</span>
+    <span class="with-love">
+      <i class="fa fa-heart"></i>
+    </span>
+    <span class="author" itemprop="copyrightHolder">niko</span>
+  </div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  </div>
+
+    </div>
+  </footer>
+
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+  <div class="sidebar-dimmer"></div>
+  <div class="back-to-top" role="button" aria-label="返回顶部">
+    <i class="fa fa-arrow-up fa-lg"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/sidebar.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
 
 
 
 
   
-<script src="/js/build/libs/Typed.min.js"></script>
-
-  
-<script src="/js/build/plugins/typed.js" type="module"></script>
 
 
 
 
 
-
-
-
-    
-<script src="/js/build/libs/anime.min.js"></script>
-
-
-
-
-
-    
-<script src="/js/build/tools/tocToggle.js" type="module" data-swup-reload-script=""></script>
-
-<script src="/js/build/layouts/toc.js" type="module" data-swup-reload-script=""></script>
-
-<script src="/js/build/plugins/tabs.js" type="module" data-swup-reload-script=""></script>
-
-
-
-
-<script src="/js/build/libs/moment-with-locales.min.js" data-swup-reload-script=""></script>
-
-
-<script src="/js/build/layouts/essays.js" type="module" data-swup-reload-script=""></script>
-
-
-
-
-
-	
 </body>
-
 </html>
